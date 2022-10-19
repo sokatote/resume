@@ -1,0 +1,295 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.dropdown {
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    border-radius: 8px;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #BBCFFF;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #fff;
+    background-color: #00A4BD;
+}
+
+.btn0 {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: -webkit-linear-gradient(top, #BBCFFF, #11999e);
+    background-image: -moz-linear-gradient(top, #BBCFFF, #11999e);
+    background-image: -ms-linear-gradient(top, #BBCFFF, #11999e);
+    background-image: -o-linear-gradient(top, #BBCFFF, #11999e);
+    background-image: linear-gradient(to bottom, #BBCFFF, #11999e);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: #fff;
+}
+
+.expierience {
+    color: #FAAFFF;
+    font-size: 6.925rem;
+    margin-top: -30px;
+    margin-left:40px;
+    font-family: 'Sacramento', cursive;
+}
+
+.work {
+    color: #FAAFFF;
+    font-size: 6.925rem;
+    margin-top: -350px;
+    margin-left: 40px;
+    font-family: 'Sacramento', cursive;
+}
+
+h3 {
+    color: #192965;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+    color: #BBCFFF;
+    text-align: right;
+}
+
+.girl_touching_moon {
+    width: 100%;
+    min-height: 300px;
+    margin-top: -40px;
+}
+
+.medium-container {
+    text-align: center;
+    background-color: #ef8172;
+    color: #BBCFFF;
+    font-family: 'Merriweather', serif;
+    background: #F0EFEF;
+    margin-top: 105px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    padding: 100px 20vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: left;
+}
+
+.me {
+    padding: 6% 15%
+}
+
+.who_am_I {
+    color: #192965;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.me_about {
+    width: 100%;
+    margin: 50px auto 100px auto;
+}
+
+.principle {
+    text-align: left;
+}
+
+span {
+    margin-left: 50px;
+    color: #192965;
+}
+.ocean_girl_2 {
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px
+}
+
+.footer {
+    background-color: #1C3879;
+    height: 150px;
+}
+
+.copyright {
+    color: #FAAFFF;
+    font-size: 0.75rem;
+    padding: 50px 0;
+    text-align: center;
+}
+
+@media (max-width: 950px) {
+.principle {
+    clear: left;
+    width: 90%;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.ocean_girl_2 {
+    width: 90%;
+    margin-left: 40px;
+}
+}
+
+@media (max-width: 940px) {
+.expierience {
+    font-size: 5.225rem;
+}
+
+.work {
+    font-size: 5.225rem;
+    margin-top: -290px;
+}
+
+.medium-container {
+    margin-top: 100px;
+}
+}
+
+@media (max-width: 880px) {
+.expierience {
+    font-size: 5.025rem;
+}
+
+.work {
+    font-size: 5.025rem;
+    margin-top: -270px;
+}
+
+.medium-container {
+    margin-top: 90px;
+}
+
+.principle {
+    margin-left: 25px;
+}
+
+.ocean_girl_2 {
+    margin-left: 25px;
+}
+}
+
+@media (max-width: 720px) {
+.expierience {
+    font-size: 4.825rem;
+}
+
+.work {
+    font-size: 4.825rem;
+    margin-top: -230px;
+}
+
+.medium-container {
+    margin-top: 50px;
+}
+
+.principle {
+    margin-left: 25px;
+}
+
+.ocean_girl_2 {
+    margin-left: 25px;
+}
+}
+
+@media (max-width: 640px) {
+.expierience {
+    font-size: 4.425rem;
+}
+
+.work {
+    font-size: 4.425rem;
+    margin-top: -200px;
+}
+
+.medium-container {
+    margin-top: 50px;
+}
+
+.principle {
+    margin-left: 25px;
+}
+
+.ocean_girl_2 {
+    margin-left: 25px;
+}
+}
+
+@media (max-width: 640px) {
+.expierience {
+    font-size: 3.925rem;
+}
+
+.work {
+    font-size: 3.925rem;
+    margin-top: -160px;
+}
+
+.medium-container {
+    margin-top: 30px;
+}
+
+.principle {
+    margin-left: 25px;
+}
+
+.ocean_girl_2 {
+    margin-left: 25px;
+}
+
+.dropdown {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 0.85rem;
+}
+}
+
